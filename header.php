@@ -5,6 +5,7 @@
 					<li><a href="services.php">Services<div><div></div><div></div><div></div></div></a></li>
 					
 					<li><a href="contact.php">Contact<div><div></div><div></div><div></div></div></a></li>
+					<li><a href="signup.php">Signup</a></li>
 					<li><a href="admin/index.php">Admin<div><div></div><div></div><div></div></div></a></li>
 				</ul>
 			</nav>
