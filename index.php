@@ -41,7 +41,7 @@ if($page === 'index.php'){
 			<!-- Logo -->
 			<div class="logo">
 				<a href="#">
-					<div>V<span>o</span>gue</div>
+					<div>B<span>ea</span>uty</div>
 					<div>hair</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div></div>
@@ -112,8 +112,8 @@ if($page === 'index.php'){
 				<div class="owl-item home_slide">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 					<div class="slide_text" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-						<div class="slide_title">Our best offers</div>
-						<div class="slide_subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+						<!-- <div class="slide_title">Our best offers</div> -->
+						<div class="slide_subtitle">Beauty is the gift of god and transmitted from one to the other generation.</div>
 					</div>
 					<div class="slide_container">
 						<div class="container">
@@ -122,9 +122,9 @@ if($page === 'index.php'){
 									<div class="slide_content" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOut">
 										<div class="home_title"><h1>The <span>hair</span> that you dream</h1></div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien cursus faucibus finibus.</p>
+											<p>Life style is fast changing in the modern era and the women have become more conscious about their make up the status of women has improved a lot and is improving further.</p>
 										</div>
-										<div class="home_link"><a href="#">View our offers</a></div>
+										<!-- <div class="home_link"><a href="#">View our offers</a></div> -->
 									</div>
 								</div>
 							</div>
@@ -136,8 +136,8 @@ if($page === 'index.php'){
 				<div class="owl-item home_slide">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 					<div class="slide_text" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-						<div class="slide_title">Our best offers</div>
-						<div class="slide_subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+						<!-- <div class="slide_title">Our best offers</div> -->
+						<div class="slide_subtitle">We believe beauty is the gift of god and transmitted from one to the other generation.</div>
 					</div>
 					<div class="slide_container">
 						<div class="container">
@@ -146,9 +146,9 @@ if($page === 'index.php'){
 									<div class="slide_content" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOut">
 										<div class="home_title"><h1>The <span>hair</span> that you dream</h1></div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien cursus faucibus finibus.</p>
+											<p>Life style is fast changing in the modern era and the women have become more conscious about their make up the status of women has improved a lot and is improving further.</p>
 										</div>
-										<div class="home_link"><a href="#">View our offers</a></div>
+										<!-- <div class="home_link"><a href="#">View our offers</a></div> -->
 									</div>
 								</div>
 							</div>
@@ -160,8 +160,8 @@ if($page === 'index.php'){
 				<div class="owl-item home_slide">
 					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
 					<div class="slide_text" data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
-						<div class="slide_title">Our best offers</div>
-						<div class="slide_subtitle">Lorem ipsum dolor sit amet, consectetur</div>
+					
+						<div class="slide_subtitle">Beauty is the gift of god and transmitted from one to the other generation.</div>
 					</div>
 					<div class="slide_container">
 						<div class="container">
@@ -170,9 +170,9 @@ if($page === 'index.php'){
 									<div class="slide_content" data-animation-in="fadeInRight" data-animation-out="animate-out fadeOut">
 										<div class="home_title"><h1>The <span>hair</span> that you dream</h1></div>
 										<div class="home_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien cursus faucibus finibus.</p>
+											<p>Life style is fast changing in the modern era and the women have become more conscious about their make up the status of women has improved a lot and is improving further </p>
 										</div>
-										<div class="home_link"><a href="#">View our offers</a></div>
+										<!-- <div class="home_link"><a href="#">View our offers</a></div> -->
 									</div>
 								</div>
 							</div>
@@ -190,10 +190,10 @@ if($page === 'index.php'){
 		</div>
 
 		<!-- Slider Progress -->
-		<div class="slide_progress">
+		<!-- <div class="slide_progress">
 			<div class="slide_num">01.</div>
 			<div class="slide_bar"><div></div></div>
-		</div>
+		</div> -->
 	</div>
 
 	<!-- Services -->
@@ -205,7 +205,7 @@ if($page === 'index.php'){
 				<div class="col-lg-9">
 					<div class="section_title_container">
 						<div class="section_title"><h1>Our Services</h1></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+						<p>Our array of beauty services include haircuts, hair spas, colouring, texturing, styling, waxing, pedicures, manicures, threading, body spa, natural facials and more.</p>
 					</div>
 				</div>
 			</div>
@@ -221,81 +221,80 @@ if($page === 'index.php'){
 								<div class="owl-item">
 
 									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon"><div><img src="images/mirror.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Hair Dressing</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+									<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon"><div class="text-right"><img src="images/mirror.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Hair Dressing</div>
+												<div class="service_text trans_200">
+													<p> The action or process of washing, cutting, curling, or arranging the hair.</p>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon"><div><img src="images/facial-mask.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Ombre Hair</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+										<!-- Service -->
+										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon"><div class="text-right"><img src="images/cream.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Ombre Hair</div>
+												<div class="service_text trans_200">
+													<p>Ombre’ remains one of the hottest hair color trends not only because it has so many different options, but because it can be ridiculously low maintenance.</p>
+												</div>
 											</div>
 										</div>
+
 									</div>
 
-								</div>
-
-								<!-- Slide -->
-								<div class="owl-item">
-									
-									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon"><div><img src="images/makeup.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Hair Coloring</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+									<!-- Slide -->
+									<div class="owl-item">
+										
+										<!-- Service -->
+										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon"><div class="text-right"><img src="images/facial-mask.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Hair Coloring</div>
+												<div class="service_text trans_200">
+													<p>Hair coloring works by coating each strand with color (non-permanent color) or by penetrating each hair cuticle, entering the hair cortex, and bonding with the hair (permanent color). While non-permanent hair color can be shampooed out eventually, permanent color, as the name suggests, permanently colors the hair.</p>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon service_icon_2"><div><img src="images/cream.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Treatments</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+										<!-- Service -->
+										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon service_icon_2 service_icon_flip"><div class="text-right"><img src="images/make-up.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Treatments</div>
+												<div class="service_text trans_200">
+													<p>The salon deep conditioning treatment consists of head massage, soaking and application of various hair masks.</p>
+												</div>
 											</div>
 										</div>
+
 									</div>
 
-								</div>
-
-								<!-- Slide -->
-								<div class="owl-item">
-									
-									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon service_icon_flip"><div><img src="images/make-up.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Cutting & Trimming</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+									<!-- Slide -->
+									<div class="owl-item">
+										
+										<!-- Service -->
+										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon"><div class="text-right"><img src="images/makeup.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Trimming</div>
+												<div class="service_text trans_200">
+													<p> Trimming your hair actually encourages hair growth. It may sound counter-intuitive, but the appearance of broken and split-ends not only damages the look and feel of your hair, but it also contributes to the appearance of shorter hair and thinner ends.</p>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<!-- Service -->
-									<div class="service d-flex flex-row align-items-center justify-content-start trans_200">
-										<div class="service_icon service_icon_3"><div><img src="images/cream-2.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
-										<div class="service_content">
-											<div class="service_title trans_200">Keratin Streightening</div>
-											<div class="service_text trans_200">
-												<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+										<!-- Service -->
+										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+											<div class="service_icon service_icon_3"><div class="text-right"><img src="images/cream-2.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
+											<div class="service_content">
+												<div class="service_title trans_200">Streightening</div>
+												<div class="service_text trans_200">
+													<p> Hair straightening is a term to describe hair treatments that chemically straighten hair for a long period of time.</p>
+												</div>
 											</div>
 										</div>
-									</div>
-
 								</div>
 							</div>
 						</div>
@@ -307,7 +306,7 @@ if($page === 'index.php'){
 
 	<!-- Testimonials -->
 
-	<div class="testimonials">
+	 <!-- <div class="testimonials">
 		<div class="parallax_background" data-image-src="images/testimonials.jpg"></div>
 		<div class="container">
 			<div class="row">
@@ -320,14 +319,14 @@ if($page === 'index.php'){
 			</div>
 			<div class="row testimonials_row">
 				<div class="col">
-					<div class="section_expander">
-						
+					<div class="section_expander"> -->
+						 
 						<!-- Testimonials Slider -->
-						<div class="testimonials_slider_container">
-							<div class="owl-carousel owl-theme testimonials_slider">
+						<!-- <div class="testimonials_slider_container">
+							<div class="owl-carousel owl-theme testimonials_slider"> -->
 								
 								<!-- Slide -->
-								<div class="owl-item">
+								<!-- <div class="owl-item">
 									<div class="testimonial_container">
 										<div class="testimonial d-flex flex-column align-items-center justify-content-center text-center trans_200">
 											<div class="testimonial_image"><img src="images/author_1.jpg" alt=""></div>
@@ -338,10 +337,10 @@ if($page === 'index.php'){
 											<div class="testimonial_author">Jessica Smith, Client</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 
 								<!-- Slide -->
-								<div class="owl-item">
+								<!-- <div class="owl-item">
 									<div class="testimonial_container">
 										<div class="testimonial d-flex flex-column align-items-center justify-content-center text-center trans_200">
 											<div class="testimonial_image"><img src="images/author_2.jpg" alt=""></div>
@@ -352,10 +351,10 @@ if($page === 'index.php'){
 											<div class="testimonial_author">Jessica Smith, Client</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 
 								<!-- Slide -->
-								<div class="owl-item">
+								<!-- <div class="owl-item">
 									<div class="testimonial_container">
 										<div class="testimonial d-flex flex-column align-items-center justify-content-center text-center trans_200">
 											<div class="testimonial_image"><img src="images/author_3.jpg" alt=""></div>
@@ -366,18 +365,18 @@ if($page === 'index.php'){
 											<div class="testimonial_author">Jessica Smith, Client</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 
 							</div>
 						</div>
-						<div class="testimonials_more">
+						<!-- <div class="testimonials_more">
 							<div class="testimonials_more_button ml-auto mr-auto trans_200"><a href="#">load more</a></div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 
 	<!-- Footer -->
 
@@ -390,7 +389,7 @@ if($page === 'index.php'){
 					<div class="col">
 						<div class="section_title_container">
 							<div class="section_title"><h1>Get in touch</h1></div>
-							<p>Maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+							<!-- <p>Maximus mauris sceleri sque, at rutrum nulla dictum.</p> -->
 						</div>
 					</div>
 				</div>
@@ -451,8 +450,7 @@ if($page === 'index.php'){
 		</div>
 		<div class="footer_bar d-flex flex-row align-items-center justify-content-start">
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 		</div>
 	</footer>
 </div>

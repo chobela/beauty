@@ -29,7 +29,7 @@
 			<!-- Logo -->
 			<div class="logo">
 				<a href="#">
-					<div>V<span>o</span>gue</div>
+				<div>B<span>ea</span>uty</div>
 					<div>hair</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div></div>
@@ -96,19 +96,19 @@
 				<div class="row">
 					<div class="col-xl-8">
 						<div class="section_title_container">
-							<div class="section_title"><h1>The <span>Masters</span> of hair</h1></div>
+							<!-- <div class="section_title"><h1>The <span>Masters</span> of hair</h1></div> -->
 						</div>
 					</div>
 				</div>
 				<div class="row about_row">
 					<div class="col-lg-6">
 						<div class="about_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum quis sem sed pharetra. Morbi tempus lobortis nunc non commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi enim orci, commodo quis lacinia ac, scelerisque at dui. Aliquam at augue et nulla euismod aliquet ut a nisi. Phasellus a neque eleifend, lacinia felis ut, vestibulum mi. Aliquam interdum, velit non elementum pulvinar, metus neque lobortis eros, sed sodales magna justo quis lectus. Sed consequat leo.</p>
+							<p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering advanced services in Skin, Hair and Body Shaping that will provide you with a luxurious experience that leave you feeling relaxed and stress free. The specialities in the parlour are, apart from regular bleachings and Facials, many types of hairstyles, Bridal and cine make-up and different types of Facials & fashion hair colourings.</p>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="about_text">
-							<p>Dolor sit amet, consectetur adipiscing elit. Ut rutrum quis sem sed pharetra. Morbi tempus lobortis nunc non commodo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi enim orci, commodo quis lacinia ac, scelerisque at dui. Aliquam at augue et nulla euismod aliquet ut a nisi. Phasellus a neque eleifend, lacinia felis ut, vestibulum mi. Aliquam interdum, velit non elementum pulvinar, metus neque lobortis eros, sed sodales magna justo quis lectus. Sed consequat leo sed.</p>
+							<!-- <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering advanced services in Skin, Hair and Body Shaping that will provide you with a luxurious experience that leave you feeling relaxed and stress free. The specialities in the parlour are, apart from regular bleachings and Facials, many types of hairstyles, Bridal and cine make-up and different types of Facials & fashion hair colourings.</p> -->
 						</div>
 					</div>
 				</div>
@@ -130,7 +130,7 @@
 				<div class="col">
 					<div class="section_title_container">
 						<div class="section_title"><h1>What we do best</h1></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+						<p> Haircuts for men, women, and children</p>
 					</div>
 				</div>
 			</div>
@@ -142,7 +142,7 @@
 						<div class="owl-carousel owl-theme milestones_slider">
 							
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="5" data-sign-before="+" data-sign-after="k">0k</div>
@@ -152,10 +152,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="3">0k</div>
@@ -165,10 +165,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="25">0k</div>
@@ -178,10 +178,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="17">0k</div>
@@ -191,10 +191,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="5" data-sign-before="+" data-sign-after="k">0k</div>
@@ -204,10 +204,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="3">0k</div>
@@ -217,10 +217,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="25">0k</div>
@@ -230,10 +230,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="17">0k</div>
@@ -243,10 +243,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="25">0k</div>
@@ -256,10 +256,10 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 							<!-- Slide -->
-							<div class="owl-item">
+							<!-- <div class="owl-item">
 								<div class="milestone">
 									<div class="milestone_content">
 										<div class="milestone_counter" data-end-value="17">0k</div>
@@ -269,15 +269,15 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 						</div>
 						
 						<!-- Slider Progress Bar -->
-						<div class="slide_progress">
+						<!-- <div class="slide_progress">
 							<div class="slide_num">01.</div>
 							<div class="slide_bar"><div style="width: 0%; transition: width 0s ease 0s;"></div></div>
-						</div>
+						</div> -->
 
 					</div>
 				</div>
@@ -295,7 +295,7 @@
 					<div class="col">
 						<div class="section_title_container">
 							<div class="section_title"><h1>Get in touch</h1></div>
-							<p>Maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+							<!-- <p>Please get in touch with us</p> -->
 						</div>
 					</div>
 				</div>
@@ -356,7 +356,7 @@
 		</div>
 		<div class="footer_bar d-flex flex-row align-items-center justify-content-start">
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 		</div>
 	</footer>

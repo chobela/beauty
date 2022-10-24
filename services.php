@@ -26,8 +26,8 @@
 
 			<!-- Logo -->
 			<div class="logo">
-				<a href="#">
-					<div>V<span>o</span>gue</div>
+			<a href="#">
+					<div>B<span>ea</span>uty</div>
 					<div>hair</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div></div>
@@ -90,7 +90,7 @@
 				<div class="row">
 					<div class="col-xl-8">
 						<div class="section_title_container">
-							<div class="section_title"><h1><span>Services</span> we provide</h1></div>
+							<!-- <div class="section_title"><h1><span>Services</span> we provide</h1></div> -->
 						</div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Hair Dressing</div>
 												<div class="service_text trans_200">
-													<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui ferme ntum eros hendrerit, id lobortis.</p>
+													<p> The action or process of washing, cutting, curling, or arranging the hair.</p>
 												</div>
 											</div>
 										</div>
@@ -122,7 +122,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Ombre Hair</div>
 												<div class="service_text trans_200">
-													<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermen tum eros hendrerit.</p>
+													<p>Ombre’ remains one of the hottest hair color trends not only because it has so many different options, but because it can be ridiculously low maintenance.</p>
 												</div>
 											</div>
 										</div>
@@ -138,7 +138,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Hair Coloring</div>
 												<div class="service_text trans_200">
-													<p>Aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hen drerit, id lobortis leo volutpat.</p>
+													<p>Hair coloring works by coating each strand with color (non-permanent color) or by penetrating each hair cuticle, entering the hair cortex, and bonding with the hair (permanent color). While non-permanent hair color can be shampooed out eventually, permanent color, as the name suggests, permanently colors the hair.</p>
 												</div>
 											</div>
 										</div>
@@ -149,7 +149,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Treatments</div>
 												<div class="service_text trans_200">
-													<p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
+													<p>The salon deep conditioning treatment consists of head massage, soaking and application of various hair masks.</p>
 												</div>
 											</div>
 										</div>
@@ -165,7 +165,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Trimming</div>
 												<div class="service_text trans_200">
-													<p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat.</p>
+													<p> Trimming your hair actually encourages hair growth. It may sound counter-intuitive, but the appearance of broken and split-ends not only damages the look and feel of your hair, but it also contributes to the appearance of shorter hair and thinner ends.</p>
 												</div>
 											</div>
 										</div>
@@ -176,7 +176,7 @@
 											<div class="service_content">
 												<div class="service_title trans_200">Streightening</div>
 												<div class="service_text trans_200">
-													<p>Scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpatdin.</p>
+													<p> Hair straightening is a term to describe hair treatments that chemically straighten hair for a long period of time.</p>
 												</div>
 											</div>
 										</div>
@@ -204,7 +204,7 @@
 				<div class="col-lg-9">
 					<div class="section_title_container">
 						<div class="section_title"><h1>Pricing</h1></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+						<p>Our Range of prices.</p>
 					</div>
 				</div>
 			</div>
@@ -375,7 +375,7 @@
 					<div class="col">
 						<div class="section_title_container">
 							<div class="section_title"><h1>Get in touch</h1></div>
-							<p>Maximus mauris sceleri sque, at rutrum nulla dictum.</p>
+							<!-- <p>Maximus mauris sceleri sque, at rutrum nulla dictum.</p> -->
 						</div>
 					</div>
 				</div>
@@ -436,7 +436,7 @@
 		</div>
 		<div class="footer_bar d-flex flex-row align-items-center justify-content-start">
 			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 		</div>
 	</footer>
