@@ -32,11 +32,12 @@ include('includes/dbconnection.php');
 
 			<!-- Logo -->
 			<div class="logo">
-				<a href="#">
+			<a href="#">
 					<div>B<span>ea</span>uty</div>
 					<div>hair</div>
 				</a>
-				<div class="hamburger"></div>
+				<div class="hamburger"><div></div><div></div><div></div>
+			</div>
 			</div>
 
 			<!-- Main Navigation -->
