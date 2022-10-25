@@ -4,33 +4,20 @@ error_reporting(0);
 include('includes/dbconnection.php');
 error_reporting(0);
 
-if(isset($_POST['submit']))
+if(isset($_POST['login']))
   {
-    $fname=$_POST['firstname'];
-    $lname=$_POST['lastname'];
-    $contno=$_POST['mobilenumber'];
-    $email=$_POST['email'];
+    $emailcon=$_POST['emailcont'];
     $password=md5($_POST['password']);
-
-    $ret=mysqli_query($con, "select Email from tbluser where Email='$email' || MobileNumber='$contno'");
-    $result=mysqli_fetch_array($ret);
-    if($result>0){
-
-echo "<script>alert('This email or Contact Number already associated with another account!.');</script>";
+    $query=mysqli_query($con,"select ID from tbluser where  (Email='$emailcon' || MobileNumber='$emailcon') && Password='$password' ");
+    $ret=mysqli_fetch_array($query);
+    if($ret>0){
+      $_SESSION['bpmsuid']=$ret['ID'];
+     header('location:index.php');
     }
     else{
-    $query=mysqli_query($con, "insert into tbluser(FirstName, LastName, MobileNumber, Email, Password) value('$fname', '$lname','$contno', '$email', '$password' )");
-    if ($query) {
-    
-    echo "<script>alert('You have successfully registered.');</script>";
-  }
-  else
-    {
-    
-      echo "<script>alert('Something Went Wrong. Please try again.');</script>";
+    echo "<script>alert('Invalid Details.');</script>";
     }
-}
-}
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -125,25 +112,14 @@ echo "<script>alert('This email or Contact Number already associated with anothe
 						</div>
 					</div>
 					<div class="col-lg-8">
-						<div class="footer_title">Signup</div>
+						<div class="footer_title">Login</div>
 						<div class="contact_form_container">
-							<form method="post" name="signup" onsubmit="return checkpass();" class="contact_form">
-								<div>
-									<div class="row">
-										<div class="col-lg-6">
-											<input type="text" placeholder="First Name" name="firstname" id="firstname" class="contact_input" required="required">
-										</div>
-										<div class="col-lg-6">
-											<input type="text" placeholder="Last Name" name="lastname" id="lastname" class="contact_input" required="required">
-										</div>
-									</div>
-								</div>
-								<div><input type="text" placeholder="Mobile Number" name="mobilenumber" id="mobilenumber" class="contact_input"></div>
-                                <div><input type="text" placeholder="Email Address" name="email" id="email" class="contact_input"></div>
+							<form method="POST" class="contact_form">
+						
+                                <div><input type="text" placeholder="Registered Email or Contact Number" name="emailcont" class="contact_input"></div>
 								<div><input type="password" placeholder="Password" name="password" id="password" class="contact_input"></div>
-								<div><input type="password" placeholder="Repeat Password" name="repeatpassword" id="repeatpassword" class="contact_input"></div>
 								
-								<button type="submit" name="submit" class="contact_form_button">Submit</button>
+								<button type="submit" name="login" class="contact_form_button">Login</button>
 							
 							</form>
 						</div>

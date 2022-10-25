@@ -1,22 +1,13 @@
+<?php
+session_start();
+error_reporting(0);
+include('includes/dbconnection.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-<?php
-
-$page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
-
-
-
-if($page === 'index.php'){
-	$is_active = 'active';
-} else {
-	$is_active = '';
-}
-
-?>
-
-<title>Vogue</title>
+<title>Hair Beauty</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Vogue template project">
@@ -28,6 +19,7 @@ if($page === 'index.php'){
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.24/sweetalert2.all.js"></script>
 </head>
 <body>
 
@@ -44,7 +36,7 @@ if($page === 'index.php'){
 					<div>B<span>ea</span>uty</div>
 					<div>hair</div>
 				</a>
-				<div class="hamburger"><div></div><div></div><div></div></div>
+				<div class="hamburger"></div>
 			</div>
 
 			<!-- Main Navigation -->
@@ -54,35 +46,7 @@ if($page === 'index.php'){
 		
 		?>
 
-			<!-- Appointment -->
-			<div class="app trans_400">
-				<div class="app_button_container d-flex flex-row align-items-center justify-content-start">
-					<div class="app_button trans_400 d-flex flex-row align-items-center justify-content-start">
-						<div class="app_button_icon"><img src="images/woman.svg" alt="https://www.flaticon.com/authors/freepik"></div>
-						<div>Book an Appointment</div>
-					</div>
-					<div class="app_button_close">close</div>
-				</div>
-			</div>
-			<div class="app_content d-flex flex-column align-items-start justify-content-center">
-				<div class="app_form_container text-right">
-					<form action="#" id="app_form" class="app_form">
-						<input type="text" class="app_input" placeholder="Full Name" required="required">
-						<input type="email" class="app_input" placeholder="Email Address" required="required">
-						<input type="text" class="app_input" placeholder="Phone Number" required="required">
-						<input type="text" class="app_input" placeholder="Desired Date" required="required">
-						<select class="app_input app_select">
-							<option disabled="" selected="">Select Service</option>
-							<option>Service 1</option>
-							<option>Service 2</option>
-							<option>Service 3</option>
-							<option>Service 4</option>
-						</select>
-						<button class="app_form_button">submit</button>
-					</form>
-				</div>
-			</div>	
-		</div>
+
 	</header>
 
 	<!-- Menu -->
@@ -90,12 +54,13 @@ if($page === 'index.php'){
 	<div class="menu">
 		<nav class="menu_nav">
 			<ul class="d-flex flex-column align-items-start justify-content-start">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="articles.html">Articles</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="admin/index.php">Admin</a></li>
+			<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="services.php">Services</a></li>
+					<li><a href="contact.php">Contact</a></li>
+					<li><a href="login.php">Login</a></li>
+					<li><a href="signup.php">Signup</a></li>
+					<li><a href="admin/index.php">Admin</a></li>
 			</ul>
 		</nav>
 	</div>
