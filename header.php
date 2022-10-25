@@ -1,5 +1,5 @@
 <?php 
-if(isset($_POST['submit']))
+if(isset($_POST['submitform']))
   {
 
     $uid=$_SESSION['bpmsuid'];
@@ -58,7 +58,7 @@ $_SESSION['aptno']=$result['AptNumber'];
 					<textarea id="message" name="message" type="textarea" class="app_input" placeholder="Message" required="required"> </textarea>
 					
 
-					<button type="submit" name="submit" class="app_form_button">submit</button>
+					<button type="submit" name="submitform" class="app_form_button">submit</button>
 				</form>
 				</div>
 			</div>	
