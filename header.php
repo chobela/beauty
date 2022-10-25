@@ -31,7 +31,9 @@ $_SESSION['aptno']=$result['AptNumber'];
 					<li><a href="contact.php">Contact</a></li>
 					<li><a href="login.php">Login</a></li>
 					<li><a href="signup.php">Signup</a></li>
+					<?php if ($_SESSION['bpmsuid'] > 0) {?>
 					<li><a href="logout.php">Logout</a></li>
+					<?php }?>
 					<li><a href="admin/index.php">Admin</a></li>
 				</ul>
 			</nav>
