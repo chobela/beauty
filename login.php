@@ -44,8 +44,8 @@ if(isset($_POST['login']))
 			<!-- Logo -->
 			<div class="logo">
 			<a href="#">
-					<div>B<span>ea</span>uty</div>
-					<div>hair</div>
+			<div>Be<span>a</span>uty</div>
+					<div>by Toya</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div></div>
 			</div>

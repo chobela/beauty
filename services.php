@@ -32,8 +32,8 @@ include('includes/dbconnection.php');
 			<!-- Logo -->
 			<div class="logo">
 			<a href="#">
-					<div>B<span>ea</span>uty</div>
-					<div>hair</div>
+			<div>Be<span>a</span>uty</div>
+					<div>by Toya</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div></div>
 			</div>
@@ -69,10 +69,11 @@ include('includes/dbconnection.php');
 						</div>
 					</div>
 				</div>
+				
 				<div class="row services_row">
 					<div class="col">
 						<div class="section_expander">
-
+						<p>PEDICURE</p>
 							<!-- Services Slider -->
 							<div class="services_slider_container">
 								<div class="owl-carousel owl-theme services_slider">
@@ -84,9 +85,10 @@ include('includes/dbconnection.php');
 										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/mirror.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Hair Dressing</div>
+												
+												<div class="service_title trans_200">Signature Pedicure</div>
 												<div class="service_text trans_200">
-													<p> The action or process of washing, cutting, curling, or arranging the hair.</p>
+													<p>Includes: Sea Salt Soak, Cut and Shape,Cllus Remover,Sugar Scrub, Mud Mask,Moisturizing Massage and Polish</p>
 												</div>
 											</div>
 										</div>
@@ -95,9 +97,9 @@ include('includes/dbconnection.php');
 										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/cream.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Ombre Hair</div>
+												<div class="service_title trans_200">Detox</div>
 												<div class="service_text trans_200">
-													<p>Ombre’ remains one of the hottest hair color trends not only because it has so many different options, but because it can be ridiculously low maintenance.</p>
+													<p>Includes: Fresh Citrus Slices, Rose Petals & Sea Salt Soak,Cut and Shape,Callus Remover, Sugar Scrub, Detox Mask, Moisturizing Massage and Hot Towels Polish .</p>
 												</div>
 											</div>
 										</div>
@@ -105,21 +107,21 @@ include('includes/dbconnection.php');
 									</div>
 
 									<!-- Slide -->
-									<div class="owl-item">
+									<!-- <div class="owl-item"> -->
 										
 										<!-- Service -->
 										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/facial-mask.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Hair Coloring</div>
+												<div class="service_title trans_200">Luxury Pedicure</div>
 												<div class="service_text trans_200">
-													<p>Hair coloring works by coating each strand with color (non-permanent color) or by penetrating each hair cuticle, entering the hair cortex, and bonding with the hair (permanent color). While non-permanent hair color can be shampooed out eventually, permanent color, as the name suggests, permanently colors the hair.</p>
+													<p>Includes: Fresh Citrus Slices,Rose Petals & Sea Salt Soak, Cut and Shape, Callus Remover, Sugar Scrub, Detox Mask, Moisturizing Massage and Hot Towels Polish.</p>
 												</div>
 											</div>
 										</div>
 
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon service_icon_2 service_icon_flip"><div class="text-right"><img src="images/make-up.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Treatments</div>
@@ -127,15 +129,15 @@ include('includes/dbconnection.php');
 													<p>The salon deep conditioning treatment consists of head massage, soaking and application of various hair masks.</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 
-									</div>
+									<!-- </div> -->
 
 									<!-- Slide -->
-									<div class="owl-item">
+									<!-- <div class="owl-item"> -->
 										
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/makeup.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Trimming</div>
@@ -143,10 +145,10 @@ include('includes/dbconnection.php');
 													<p> Trimming your hair actually encourages hair growth. It may sound counter-intuitive, but the appearance of broken and split-ends not only damages the look and feel of your hair, but it also contributes to the appearance of shorter hair and thinner ends.</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon service_icon_3"><div class="text-right"><img src="images/cream-2.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Streightening</div>
@@ -154,14 +156,14 @@ include('includes/dbconnection.php');
 													<p> Hair straightening is a term to describe hair treatments that chemically straighten hair for a long period of time.</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 
-									</div>
+									<!-- </div> -->
 								</div>
 							</div>
 
 							<div class="services_more">
-								<div class="services_more_button ml-auto mr-auto trans_200"><a href="#">load more</a></div>
+								<!-- <div class="services_more_button ml-auto mr-auto trans_200"><a href="#">load more</a></div> -->
 							</div>
 						</div>
 					</div>
@@ -193,27 +195,73 @@ include('includes/dbconnection.php');
 							<!-- Slide -->
 							<div class="owl-item">
 								<div class="pricing_item">
+									
 									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
 									<div class="pricing_border"></div>
 									<div class="pricing_content">
-										<div class="pricing_title">Hair Cuts</div>
+										<!-- <p class="pricing_title">Feet .Wax. Lashes</p> -->
+										<p>FEET . WAX . LASHES</p>
+										<p>pedicures</p>
+										
 										<div class="pricing_list">
 											<ul>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Women's Haircut</div>
-													<div class="ml-auto">$95+</div>
+													<div>Signature Pedicure</div>
+													<div class="ml-auto">$40</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Men's Haircut</div>
-													<div class="ml-auto">$25+</div>
+													<div>Detox Pedicure</div>
+													<div class="ml-auto">$50</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Teen's Haircut</div>
+													<div>Luxury Pedicure</div>
+													<div class="ml-auto">$65</div>
+												</li>
+												<p>Addition Services</p>
+												<div>Eyebrow, Lip, Chin 10 ea</div>
+												<div>Strip 20+ </div>
+												<div>Individuals 35+ </div>
+												<div>Extras</div>
+												<div>Paraffin 5 </div>
+												<div>Private Pedicure +25 </div>
+												<div>Toe Nail Extentions 5 </div>
+											
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Slide -->
+							<div class="owl-item">
+								<div class="pricing_item">
+									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
+									<div class="pricing_border"></div>
+									<div class="pricing_content">
+										<!-- <div class="pricing_title">ADDITIONAL SERVICES</div> -->
+										<p>NATURAL & ARTIFICIAL NAIL SERVICES</p>
+										<p>Natural Nails</p>
+										<div class="pricing_list">
+											<ul>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Basic Manicure</div>
+													<div class="ml-auto">$25</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Gel Manicure</div>
+													<div class="ml-auto">$35</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Hand Massage</div>
+													<div class="ml-auto">$5+</div>
+												</li>										
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Buff Shine</div>
+													<div class="ml-auto">$5</div>
+												</li> 
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Soft Gel Overlay</div>
 													<div class="ml-auto">$55+</div>
-												</li>
-												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Children's Haircut</div>
-													<div class="ml-auto">$30+</div>
 												</li>
 											</ul>
 										</div>
@@ -227,24 +275,29 @@ include('includes/dbconnection.php');
 									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
 									<div class="pricing_border"></div>
 									<div class="pricing_content">
-										<div class="pricing_title">Hair Color</div>
+									<p>NATURAL & ARTIFICIAL NAIL SERVICES</p>
+										<p>Acrylic Nails</p>
 										<div class="pricing_list">
 											<ul>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>One Color</div>
-													<div class="ml-auto">$95+</div>
+													<div>Short Acrylic</div>
+													<div class="ml-auto">set: 45 fill:35</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Men's Color</div>
-													<div class="ml-auto">$25+</div>
+													<div>Medium Acrylic</div>
+													<div class="ml-auto">set: 55 fill:45</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Pro Highlights</div>
-													<div class="ml-auto">$55+</div>
+													<div>Long Acrylic</div>
+													<div class="ml-auto">set: 65 fill:55</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Full Highlights</div>
-													<div class="ml-auto">$30+</div>
+													<div>XL Acrylic</div>
+													<div class="ml-auto">set: 85 fill:75</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>XXL Acrylic</div>
+													<div class="ml-auto">set: 100+ fill: 85</div>
 												</li>
 											</ul>
 										</div>
@@ -252,30 +305,106 @@ include('includes/dbconnection.php');
 								</div>
 							</div>
 
-							<!-- Slide -->
+								<!-- Slide -->
 							<div class="owl-item">
 								<div class="pricing_item">
 									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
 									<div class="pricing_border"></div>
 									<div class="pricing_content">
-										<div class="pricing_title">Services 4 Men</div>
+									<p>NATURAL & ARTIFICIAL NAIL SERVICES</p>
+										<p>Soft & Hard Gel Extentions</p>
+										<div class="pricing_list">
+											<ul>
+												
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Short</div>
+													<div class="ml-auto">set: 65 fill:55</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Medium</div>
+													<div class="ml-auto">set: 75 fill:65</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Long</div>
+													<div class="ml-auto">set: 85 fill:75</div>
+												</li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+									<!-- Slide -->
+									<div class="owl-item">
+								<div class="pricing_item">
+									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
+									<div class="pricing_border"></div>
+									<div class="pricing_content">
+										<!-- <div class="pricing_title">ADDITIONAL SERVICES</div> -->
+										<p>NATURAL & ARTIFICIAL NAIL SERVICES</p>
+										<p>Dip Powder</p>
 										<div class="pricing_list">
 											<ul>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Women's Haircut</div>
-													<div class="ml-auto">$95+</div>
+													<div>Short</div>
+													<div class="ml-auto">$40</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Men's Haircut</div>
-													<div class="ml-auto">$25+</div>
+													<div>Medium</div>
+													<div class="ml-auto">$50</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Teen's Haircut</div>
-													<div class="ml-auto">$55+</div>
+													<div>Long</div>
+													<div class="ml-auto">$60</div>
+												</li>										
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>XL</div>
+													<div class="ml-auto">$65</div>
+												</li> 
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>XXL</div>
+													<div class="ml-auto">$75</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+<!-- Slide -->
+<div class="owl-item">
+								<div class="pricing_item">
+									<div class="background_image" style="background-image:url(images/pricing.jpg)"></div>
+									<div class="pricing_border"></div>
+									<div class="pricing_content">
+										<!-- <div class="pricing_title">ADDITIONAL SERVICES</div> -->
+										<p>NATURAL & ARTIFICIAL NAIL SERVICES</p>
+										<p>Additional Nail Services</p>
+										<div class="pricing_list">
+											<ul>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Hand Drawn Nail Art</div>
+													<div class="ml-auto">$5+</div>
 												</li>
 												<li class="d-flex flex-row align-items-start justify-content-start">
-													<div>Children's Haircut</div>
-													<div class="ml-auto">$30+</div>
+													<div>Crystals</div>
+													<div class="ml-auto">$5+</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Special Topcoat</div>
+													<div class="ml-auto">$5</div>
+												</li>										
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>3rd Nail Art and 3 Gems</div>
+													<div class="ml-auto">$10</div>
+												</li> 
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Gel Polish Change</div>
+													<div class="ml-auto">$20</div>
+												</li>
+												<li class="d-flex flex-row align-items-start justify-content-start">
+													<div>Regular Polish</div>
+													<div class="ml-auto">$10</div>
 												</li>
 											</ul>
 										</div>

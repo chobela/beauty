@@ -33,8 +33,8 @@ include('includes/dbconnection.php');
 			<!-- Logo -->
 			<div class="logo">
 			<a href="#">
-					<div>B<span>ea</span>uty</div>
-					<div>hair</div>
+			<div>Be<span>a</span>uty</div>
+					<div>by Toya</div>
 				</a>
 				<div class="hamburger"><div></div><div></div><div></div>
 			</div>
@@ -171,7 +171,7 @@ include('includes/dbconnection.php');
 				<div class="col-lg-9">
 					<div class="section_title_container">
 						<div class="section_title"><h1>Our Services</h1></div>
-						<p>Our array of beauty services include haircuts, hair spas, colouring, texturing, styling, waxing, pedicures, manicures, threading, body spa, natural facials and more.</p>
+						<p>Our array of beauty services include colouring, texturing, styling, waxing, pedicures, manicures, threading, body spa, natural facials and more.</p>
 					</div>
 				</div>
 			</div>
@@ -190,9 +190,10 @@ include('includes/dbconnection.php');
 									<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/mirror.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Hair Dressing</div>
+												
+												<div class="service_title trans_200">Signature Pedicure</div>
 												<div class="service_text trans_200">
-													<p> The action or process of washing, cutting, curling, or arranging the hair.</p>
+													<p>Includes: Sea Salt Soak, Cut and Shape,Cllus Remover,Sugar Scrub, Mud Mask,Moisturizing Massage and Polish</p>
 												</div>
 											</div>
 										</div>
@@ -201,9 +202,9 @@ include('includes/dbconnection.php');
 										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/cream.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Ombre Hair</div>
+												<div class="service_title trans_200">Detox</div>
 												<div class="service_text trans_200">
-													<p>Ombre’ remains one of the hottest hair color trends not only because it has so many different options, but because it can be ridiculously low maintenance.</p>
+													<p>Includes: Fresh Citrus Slices, Rose Petals & Sea Salt Soak,Cut and Shape,Callus Remover, Sugar Scrub, Detox Mask, Moisturizing Massage and Hot Towels Polish .</p>
 												</div>
 											</div>
 										</div>
@@ -217,15 +218,15 @@ include('includes/dbconnection.php');
 										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/facial-mask.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
-												<div class="service_title trans_200">Hair Coloring</div>
+												<div class="service_title trans_200">Luxury Pedicure</div>
 												<div class="service_text trans_200">
-													<p>Hair coloring works by coating each strand with color (non-permanent color) or by penetrating each hair cuticle, entering the hair cortex, and bonding with the hair (permanent color). While non-permanent hair color can be shampooed out eventually, permanent color, as the name suggests, permanently colors the hair.</p>
+													<p>Includes: Fresh Citrus Slices,Rose Petals & Sea Salt Soak, Cut and Shape, Callus Remover, Sugar Scrub, Detox Mask, Moisturizing Massage and Hot Towels Polish.</p>
 												</div>
 											</div>
 										</div>
 
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon service_icon_2 service_icon_flip"><div class="text-right"><img src="images/make-up.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Treatments</div>
@@ -233,15 +234,15 @@ include('includes/dbconnection.php');
 													<p>The salon deep conditioning treatment consists of head massage, soaking and application of various hair masks.</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 
 									</div>
 
 									<!-- Slide -->
-									<div class="owl-item">
+									<!-- <div class="owl-item"> -->
 										
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon"><div class="text-right"><img src="images/makeup.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Trimming</div>
@@ -249,10 +250,10 @@ include('includes/dbconnection.php');
 													<p> Trimming your hair actually encourages hair growth. It may sound counter-intuitive, but the appearance of broken and split-ends not only damages the look and feel of your hair, but it also contributes to the appearance of shorter hair and thinner ends.</p>
 												</div>
 											</div>
-										</div>
+										</div> -->
 
 										<!-- Service -->
-										<div class="service d-flex flex-row align-items-start justify-content-start trans_200">
+										<!-- <div class="service d-flex flex-row align-items-start justify-content-start trans_200">
 											<div class="service_icon service_icon_3"><div class="text-right"><img src="images/cream-2.svg" class="svg" alt="https://www.flaticon.com/authors/freepik"></div></div>
 											<div class="service_content">
 												<div class="service_title trans_200">Streightening</div>
@@ -260,8 +261,8 @@ include('includes/dbconnection.php');
 													<p> Hair straightening is a term to describe hair treatments that chemically straighten hair for a long period of time.</p>
 												</div>
 											</div>
-										</div>
-								</div>
+										</div> -->
+								<!-- </div> -->
 							</div>
 						</div>
 					</div>
