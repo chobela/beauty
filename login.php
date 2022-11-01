@@ -8,10 +8,11 @@ if(isset($_POST['login']))
   {
     $emailcon=$_POST['emailcont'];
     $password=md5($_POST['password']);
-    $query=mysqli_query($con,"select ID from tbluser where  (Email='$emailcon' || MobileNumber='$emailcon') && Password='$password' ");
+    $query=mysqli_query($con,"select ID, MobileNumber from tbluser where  (Email='$emailcon' || MobileNumber='$emailcon') && Password='$password' ");
     $ret=mysqli_fetch_array($query);
     if($ret>0){
       $_SESSION['bpmsuid']=$ret['ID'];
+	  $_SESSION['phone']=$ret['MobileNumber'];
      header('location:index.php');
     }
     else{
@@ -22,7 +23,7 @@ if(isset($_POST['login']))
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SignUp</title>
+<title>Login</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Vogue template project">

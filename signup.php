@@ -22,7 +22,7 @@ echo "<script>alert('This email or Contact Number already associated with anothe
     $query=mysqli_query($con, "insert into tbluser(FirstName, LastName, MobileNumber, Email, Password) value('$fname', '$lname','$contno', '$email', '$password' )");
     if ($query) {
     
-    echo "<script>alert('You have successfully registered.');</script>";
+    echo "<script>alert('You have successfully registered. You can now Login.');</script>";
   }
   else
     {
@@ -138,7 +138,7 @@ echo "<script>alert('This email or Contact Number already associated with anothe
 										</div>
 									</div>
 								</div>
-								<div><input type="text" placeholder="Mobile Number" name="mobilenumber" id="mobilenumber" class="contact_input"></div>
+								<div><input type="number" placeholder="Mobile Number starting with 260" min="12" max="12" name="mobilenumber" id="mobilenumber" class="contact_input"></div>
                                 <div><input type="text" placeholder="Email Address" name="email" id="email" class="contact_input"></div>
 								<div><input type="password" placeholder="Password" name="password" id="password" class="contact_input"></div>
 								<div><input type="password" placeholder="Repeat Password" name="repeatpassword" id="repeatpassword" class="contact_input"></div>

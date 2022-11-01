@@ -1,8 +1,12 @@
 <?php 
+include('includes/App.php');
+
+
 if(isset($_POST['submitform']))
   {
 
     $uid=$_SESSION['bpmsuid'];
+	$phone=$_SESSION['phone'];
     $adate=$_POST['adate'];
     $atime=$_POST['atime'];
     $msg=$_POST['message'];
@@ -14,7 +18,21 @@ if(isset($_POST['submitform']))
 $ret=mysqli_query($con,"select AptNumber from tblbook where tblbook.UserID='$uid' order by ID desc limit 1;");
 $result=mysqli_fetch_array($ret);
 $_SESSION['aptno']=$result['AptNumber'];
- echo '<script>alert("Thank you for applying! Your appointment number is '.$_SESSION['aptno'].'")</script>';  
+ 
+
+/********** Begin Send SMS *********/		
+$sms = new App ;
+			
+$sms->Destination = $phone;
+
+$sms->SenderAddress = 'TOYA';
+
+$sms->Message  = 'Dear Customer, Your appointment number is '. $_SESSION['aptno'] . ' Thanks for choosing us!';
+
+$sms->sendSMS() ;
+
+/********** End Send SMS *********/
+ echo '<script>alert("Thank you for booking! A SMS has been sent to your phone containing Your appointment number")</script>'; 
   }
   else
     {
